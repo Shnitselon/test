@@ -64,7 +64,7 @@ Do the following in Resource Manager Client.
 
 Once you’ve finished implementing and testing the driver, it’s time to create a package to be used in your CloudShell production environment. Note that you can skip this step altogether if you developed your driver in the production environment.
 
-* From the *\Drivers* folder, run *Scripts\build_driver.exe*.
+* From the *\Drivers* folder, run:
     
         `Scripts\build_driver.exe`
 
