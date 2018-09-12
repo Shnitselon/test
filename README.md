@@ -8,7 +8,7 @@ In this guide:
 
 * [Creating a new driver and installing the driver's environment](#CreateNewDriver)
 * [Implementing the driver in CloudShell](#ImplementDriver)
-* [Testing in CloudShell](#TestNewDriver)
+* [Testing the driver in CloudShell](#TestNewDriver)
 * [Building and installing the driver's package on CloudShell](#BuildInstallDriver)
 
 <a name="CreateNewDriver"></a>
@@ -51,7 +51,7 @@ Now that you have a new driver, it is time to implement the driver's commands. N
 2. Update the driver's version in the *version.txt* file.
 <a name="TestNewDriver"></a>
 
-### Testing in CloudShell
+### Testing the driver in CloudShell
 
 Do the following in Resource Manager Client.
 
@@ -85,6 +85,6 @@ Once you’ve finished implementing and testing the driver, it’s time to creat
 
 2. Extract the driver's package to the *\Drivers* folder *C:\\Program Files (x86)\\QualiSystems\\CloudShell\\Server\\Drivers*
 3. Navigate to the extracted folder and install the driver, as explained in [Creating a new driver and installing the driver's environment](#CreateNewDriver)
-4. Follow the steps in [Testing in CloudShell](#TestNewDriver) to install the driver on CloudShell.
+4. Follow the steps in [Testing the driver in CloudShell](#TestNewDriver) to install the driver on CloudShell.
 
 
