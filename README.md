@@ -19,7 +19,7 @@
 
         `install_driver.bat "<interpreter-path>\python.exe"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note that you can specify the driver's python interpreter by adding it as a first argument to the script.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Note:** You can specify the driver's python interpreter by adding it as a first argument to the script.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The driver is installed.
