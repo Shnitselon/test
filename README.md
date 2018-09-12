@@ -1,6 +1,16 @@
 
 
 # Shell L1 Driver Standard
+
+In this guide, we will guide you on how to create your L1 driver, implement its automation commands, test and use it in CloudShell.
+
+In this guide:
+
+* [Creating a new driver and installing the driver's environment](#CreateNewDriver)
+* [Implementing the driver in CloudShell](#ImplementDriver)
+* [Testing in CloudShell](#TestNewDriver)
+* [Building and installing the driver's package on CloudShell](#BuildInstallDriver)
+
 <a name="CreateNewDriver"></a>
 
 ### Creating a new driver and installing the driver's environment
@@ -27,7 +37,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The driver is installed.
 
 3. To verify, return to the *\Drivers* folder at *~\QualiSystems\CloudShell\Server\Drivers*, and run the new driver exe file.
-
+<a name="ImplementDriver"></a>
 
 ### Implementing the driver in CloudShell
 
@@ -59,7 +69,7 @@ Do the following in Resource Manager Client.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autoload and any other commands executed on the L1 resource are logged at *~\QualiSystems\CloudShell\Server\Logs*.
 
 4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by <a href="http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm" target="_blank">creating a blueprint</a> with 2 resources and a route, then reserving this blueprint and connecting the route.
-
+<a name="BuildInstallDriver"></a>
 
 ### Building and installing the driver's package on CloudShell:**
 
