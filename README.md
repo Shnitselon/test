@@ -4,7 +4,7 @@
 # Shell L1 Driver Standard
 <a name="CreateNewDriver"></a>
 
-<font color="#0366D6">*C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*</font>
+<font color="light blue">*C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*</font>
 
 ### Creating a new driver and installing the driver's environment
 
