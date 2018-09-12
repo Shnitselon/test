@@ -5,7 +5,7 @@
 
 ### Creating a new driver and installing the driver's environment
 
-1. Start a new project with [shellfoundry](https://github.com/QualiSystems/shellfoundry). We recommend to do that in CloudShell's *Drivers* folder (usually at *C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers* on the Quali Server machine):
+1. Start a new project with <a href="https://github.com/QualiSystems/shellfoundry" target="_blank">shellfoundry</a>. We recommend to do that in CloudShell's *Drivers* folder (usually at *C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers* on the Quali Server machine):
 
     `shellfoundry new DriverName --template layer-1-switch`
 
@@ -35,8 +35,8 @@ Now that you have a new driver, it is time to implement the driver's commands. N
 
 1. Implement methods of the *DriverCommands* class in *<project_slug>/driver_commands.py*. 
 
-    * Follow the [DEVGUIDE](https://github.com/QualiSystems/shell-L1-standard/blob/dev/DEVGUIDE.md) and docstrings with description, as an example of an L1 driver with CLI usage you can refer to the [cloudshel-L1-mrv](https://github.com/QualiSystems/cloudshell-L1-mrv) project.
-    * To debug the driver, use the [DEBUGGING GUIDE](https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md).
+    * Follow the <a href="https://github.com/QualiSystems/shell-L1-standard/blob/dev/DEVGUIDE.md" target="_blank">DEVGUIDE</a> and docstrings with description, as an example of an L1 driver with CLI usage you can refer to the <a href="https://github.com/QualiSystems/cloudshell-L1-mrv" target="_blank">cloudshel-L1-mrv</a> project.
+    * To debug the driver, use the <a href="https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md" target="_blank">DEBUGGING GUIDE</a>.
 
 2. Update the driver's version in the *version.txt* file.
 <a name="CreateNewDriver"></a>
@@ -54,11 +54,11 @@ Do the following in Resource Manager Client.
     3. Select the L1 Switch **Family** and make sure the correct **Model** and **Driver** are selected.
     4. Click **OK**.
     
-3. [Follow this guide](http://help.quali.com/Online%20Help/9.0/Portal/Content/Admn/Cnct-Ctrl-L1-Swch.htm) to set the timeout period (for L1 drivers in CloudShell), autoload and configure your L1 resource's physical connections
+3. <a href="http://help.quali.com/Online%20Help/9.0/Portal/Content/Admn/Cnct-Ctrl-L1-Swch.htm" target="_blank">Follow this guide</a> to set the timeout period (for L1 drivers in CloudShell), autoload and configure your L1 resource's physical connections
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autoload and any other commands executed on the L1 resource are logged at *~\QualiSystems\CloudShell\Server\Logs*.
 
-4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by [building a blueprint](http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm) with 2 resources and a route, then reserving this blueprint and connecting the route.
+4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by <a href="http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm" target="_blank">creatomg a blueprint</a> with 2 resources and a route, then reserving this blueprint and connecting the route.
 
 
 ### Building and installing the driver's package on CloudShell:**
