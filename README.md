@@ -21,7 +21,7 @@
         `<interpreter-path>\python.exe -m pip install virtualenv` using your python interpreter
         2. And then run:
         
-            `install_driver.bat "<interpreter-path>\python.exe"`
+           `install_driver.bat "<interpreter-path>\python.exe"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The driver is installed.
 
