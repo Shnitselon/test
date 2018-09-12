@@ -68,7 +68,6 @@ Once you’ve finished implementing and testing the driver, it’s time to creat
         `Scripts\build_driver.exe`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The L1 shell package is created in the shell project's *dist* folder, bearing the shell's name and version.
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example: *dist\cloudshell-L1-DriverName-1.0.1.zip*
  
     
