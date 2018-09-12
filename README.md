@@ -54,7 +54,7 @@ Do the following in Resource Manager Client.
     
 3. [Follow this guide](http://help.quali.com/Online%20Help/8.3/Portal/Content/Admn/Cnct-Ctrl-L1-Swch.htm) to set the timeout period (for L1 drivers in CloudShell), autoload and configure your L1 resource's physical connections
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autoload and and any other commands executed on the L1 resource are logged at *~\QualiSystems\CloudShell\Server\Logs*.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autoload and any other commands executed on the L1 resource are logged at *~\QualiSystems\CloudShell\Server\Logs*.
 
 4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by [building a blueprint](http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm) with 2 resources and a route, then reserving this blueprint and connecting the route.
 
@@ -68,6 +68,7 @@ Once you’ve finished implementing and testing the driver, it’s time to creat
         `Scripts\build_driver.exe`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The L1 shell package is created in the shell project's *dist* folder, bearing the shell's name and version.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example: *dist\cloudshell-L1-DriverName-1.0.1.zip*
  
     
