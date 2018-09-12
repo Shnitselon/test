@@ -39,7 +39,7 @@ Now that you have a new driver, it is time to implement the driver's commands. N
     * To debug the driver, use the <a href="https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md" target="_blank">DEBUGGING GUIDE</a>.
 
 2. Update the driver's version in the *version.txt* file.
-<a name="CreateNewDriver"></a>
+<a name="TestNewDriver"></a>
 
 ### Testing in CloudShell
 
@@ -74,7 +74,7 @@ Once you’ve finished implementing and testing the driver, it’s time to creat
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example: *dist\cloudshell-L1-DriverName-1.0.1.zip*
 
 2. Extract the driver's package to the *\Drivers* folder *C:\\Program Files (x86)\\QualiSystems\\CloudShell\\Server\\Drivers*
-3. Navigate to the extracted folder and install the driver, as explained in [Create a new driver and install the driver's environment](#CreateNewDriver)
-4. Follow the steps in [Testing in CloudShell](#CreateNewDriver) to install the driver on CloudShell.
+3. Navigate to the extracted folder and install the driver, as explained in [Creating a new driver and installing the driver's environment](#CreateNewDriver)
+4. Follow the steps in [Testing in CloudShell](#TestNewDriver) to install the driver on CloudShell.
 
 
