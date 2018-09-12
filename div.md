@@ -1,5 +1,3 @@
-<head>
-    <title>Test</title>
     <style>
         #outer {
             margin: 0 auto; /*center*/
@@ -18,7 +16,6 @@
             */
         }
     </style>
-</head>
 <body>
 <div id="outer">
     <div id="inner">
