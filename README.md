@@ -8,6 +8,12 @@
 
 ### Creating a new driver and installing the driver's environment
 
+<UL>
+<LI>They present information in an easy fashion.
+<LI>The bullets look cool.
+<LI>They make me happy.
+</UL>
+
 1. Start a new project with [shellfoundry](https://github.com/QualiSystems/shellfoundry), better to do that in the *Drivers* folder on the Quali Server machine, usually this is *C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*:
 
 {% highlight bash %}
