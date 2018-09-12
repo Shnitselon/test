@@ -3,8 +3,7 @@
 
 # Shell L1 Driver Standard
 <a name="CreateNewDriver"></a>
-> ## Blockquoted header
->
+
 > This is blockquoted text.
 >
 > This is a second paragraph within the blockquoted text.
