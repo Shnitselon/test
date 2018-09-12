@@ -23,7 +23,7 @@ shellfoundry new DriverName --template layer-1-switch
 install_driver.bat
 {% endhighlight %}
 
-However, if you want to use a different python interpreter, you will need to install the *virtualenv* package by running *<interpreter-path>\python.exe -m pip install virtualenv* using your python interpreter and then running the command:
+> However, if you want to use a different python interpreter, you will need to install the *virtualenv* package by running *<interpreter-path>\python.exe -m pip install virtualenv* using your python interpreter and then running the command:
 
 {% highlight bash %}
 
@@ -41,8 +41,11 @@ The driver is installed.
 
 Now that you have a new driver, it is time to implement the driver's commands. Note that at this point, the L1 driver includes the command structure but no working commands.
 
-1. Implement methods of the *DriverCommands* class in *<project_slug>/driver_commands.py*. Follow the [DEVGUIDE](https://github.com/QualiSystems/shell-L1-standard/blob/dev/DEVGUIDE.md) and docstrings with description, as an example of an L1 driver with CLI usage you can reffer to the [cloudshel-L1-mrv](https://github.com/QualiSystems/cloudshell-L1-mrv) project.
-To debug the driver, use the [DEBUGGING GUIDE](https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md).
+1. Implement methods of the *DriverCommands* class in *<project_slug>/driver_commands.py*. 
+
+> Follow the [DEVGUIDE](https://github.com/QualiSystems/shell-L1-standard/blob/dev/DEVGUIDE.md) and docstrings with description, as an example of an L1 driver with CLI usage you can refer to the [cloudshel-L1-mrv](https://github.com/QualiSystems/cloudshell-L1-mrv) project.
+> 
+> To debug the driver, use the [DEBUGGING GUIDE](https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md).
 
 2. Update the driver version in the *version.txt* file.
 <a name="CreateNewDriver"></a>
