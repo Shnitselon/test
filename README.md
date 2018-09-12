@@ -18,11 +18,11 @@
     * If you want to use a different python interpreter, you will need to  and then running the command:
         1. Install the *virtualenv* package by running:
         
-        `<interpreter-path>\python.exe -m pip install virtualenv` using your python interpreter
+            `<interpreter-path>\python.exe -m pip install virtualenv` using your python interpreter
         
         2. And then run:
         
-        `install_driver.bat "<interpreter-path>\python.exe"`
+            `install_driver.bat "<interpreter-path>\python.exe"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The driver is installed.
 
@@ -67,7 +67,7 @@ Once you’ve finished implementing and testing the driver, it’s time to creat
 
 1. From the *\Drivers* folder, run the following command:
     
-        `Scripts\build_driver.exe`
+    `Scripts\build_driver.exe`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The L1 shell package is created in the shell project's *dist* folder, bearing the shell's name and version.
 
