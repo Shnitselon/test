@@ -60,23 +60,20 @@ Do the following in Resource Manager Client.
 4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by [building a blueprint](http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm) with 2 resources and a route, then reserving this blueprint and connecting the route.
 
 
-**Build the driver's package:**
+**Building and installing the driver's package on CloudShell:**
 
-Once you’ve finished implementing and testing the driver, it’s time to create a package to be used in your CloudShell production environment. Note that you can skip this step altogether if you developed your driver in the production environment.
+Once you’ve finished implementing and testing the driver, it’s time to create the shell package and install it in your CloudShell production environment. Note that you can skip this section altogether if you developed your driver in the production environment.
 
-* From the *\Drivers* folder, run the following command:
+1. From the *\Drivers* folder, run the following command:
     
         `Scripts\build_driver.exe`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The L1 shell package is created in the shell project's *dist* folder, bearing the shell's name and version.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example: *dist\cloudshell-L1-DriverName-1.0.1.zip*
- 
-    
-### Install the driver's package
 
-1. Extract the driver's package to the *\Drivers* folder *C:\\Program Files (x86)\\QualiSystems\\CloudShell\\Server\\Drivers*
-2. Navigate to the extracted folder and install the driver, as explained in [Create a new driver and install the driver's environment](#CreateNewDriver)
-3. Follow the steps in [Testing in CloudShell](#CreateNewDriver) to install the driver on CloudShell.
+2. Extract the driver's package to the *\Drivers* folder *C:\\Program Files (x86)\\QualiSystems\\CloudShell\\Server\\Drivers*
+3. Navigate to the extracted folder and install the driver, as explained in [Create a new driver and install the driver's environment](#CreateNewDriver)
+4. Follow the steps in [Testing in CloudShell](#CreateNewDriver) to install the driver on CloudShell.
 
 
