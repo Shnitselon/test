@@ -4,17 +4,9 @@
 # Shell L1 Driver Standard
 <a name="CreateNewDriver"></a>
 
-<span style="color:blue">*C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*</span>
-
 ### Creating a new driver and installing the driver's environment
 
-<UL text-indent=50px>
-<LI>They present information in an easy fashion.
-<LI>The bullets look cool.
-<LI>They make me happy.
-</UL>
-
-1. Start a new project with [shellfoundry](https://github.com/QualiSystems/shellfoundry), better to do that in the *Drivers* folder on the Quali Server machine, usually this is *C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*:
+1. Start a new project with [shellfoundry](https://github.com/QualiSystems/shellfoundry). We recommend to do that in the *Drivers* folder on the Quali Server machine, usually this is *C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*:
 
 {% highlight bash %}
 shellfoundry new DriverName --template layer-1-switch
@@ -28,10 +20,9 @@ shellfoundry new DriverName --template layer-1-switch
 install_driver.bat
 {% endhighlight %}
 
-However, if you want to use a different python interpreter, you will need to install the *virtualenv* package by running *<interpreter-path>\python.exe -m pip install virtualenv* using your python interpreter and then running the command:
+    * If you want to use a different python interpreter, you will need to install the *virtualenv* package by running `<interpreter-path>\python.exe -m pip install virtualenv` using your python interpreter and then running the command:
 
 {% highlight bash %}
-
 install_driver.bat "<interpreter-path>\python.exe".
 {% endhighlight %}
 You can specify the driver's python interpreter by adding it as a first argument to the script.
@@ -48,8 +39,8 @@ Now that you have a new driver, it is time to implement the driver's commands. N
 
 1. Implement methods of the *DriverCommands* class in *<project_slug>/driver_commands.py*. 
 
-Follow the [DEVGUIDE](https://github.com/QualiSystems/shell-L1-standard/blob/dev/DEVGUIDE.md) and docstrings with description, as an example of an L1 driver with CLI usage you can refer to the [cloudshel-L1-mrv](https://github.com/QualiSystems/cloudshell-L1-mrv) project.
-To debug the driver, use the [DEBUGGING GUIDE](https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md).
+    * Follow the [DEVGUIDE](https://github.com/QualiSystems/shell-L1-standard/blob/dev/DEVGUIDE.md) and docstrings with description, as an example of an L1 driver with CLI usage you can refer to the [cloudshel-L1-mrv](https://github.com/QualiSystems/cloudshell-L1-mrv) project.
+    * To debug the driver, use the [DEBUGGING GUIDE](https://github.com/QualiSystems/shell-L1-template/blob/dev/DEBUGGING.md).
 
 2. Update the driver version in the *version.txt* file.
 <a name="CreateNewDriver"></a>
@@ -86,7 +77,7 @@ Scripts\build_driver.exe
     
 ### Install the driver's package
 
-1. Extract the driver's package to the Drivers folder *C:\\Program Files (x86)\\QualiSystems\\CloudShell\\Server\\Drivers*
+1. Extract the driver's package to the *\Drivers* folder *C:\\Program Files (x86)\\QualiSystems\\CloudShell\\Server\\Drivers*
 2. Navigate to the extracted folder and install the driver, as explained in [Create a new driver and install the driver's environment](#CreateNewDriver)
 3. Follow the steps in [Testing in CloudShell](#CreateNewDriver) to install the driver on CloudShell.
 
