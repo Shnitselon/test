@@ -16,6 +16,9 @@
         `install_driver.bat`
 
     * If you want to use a different python interpreter, you will need to install the *virtualenv* package by running `<interpreter-path>\python.exe -m pip install virtualenv` using your python interpreter and then running the command:
+        1. jljdsfl
+        2. dslkfjalsdjf
+        3. fdjklasdjlf
 
         `install_driver.bat "<interpreter-path>\python.exe"`
 
