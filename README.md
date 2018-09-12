@@ -58,7 +58,7 @@ Do the following in Resource Manager Client.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autoload and any other commands executed on the L1 resource are logged at *~\QualiSystems\CloudShell\Server\Logs*.
 
-4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by <a href="http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm" target="_blank">creatomg a blueprint</a> with 2 resources and a route, then reserving this blueprint and connecting the route.
+4. After validating Autoload, you can validate the mapping functions either in Resource Manager Client (in the L1 resource's **Settings>Mappings** page, or in CloudShell Portal, by <a href="http://help.quali.com/Online%20Help/9.0/Portal/Content/CSP/LAB-MNG/Rsc-Cnct/Phys-Ntwrk-Crt.htm" target="_blank">creating a blueprint</a> with 2 resources and a route, then reserving this blueprint and connecting the route.
 
 
 ### Building and installing the driver's package on CloudShell:**
