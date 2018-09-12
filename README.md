@@ -19,6 +19,7 @@
         1. Install the *virtualenv* package by running:
         
         `<interpreter-path>\python.exe -m pip install virtualenv` using your python interpreter
+        
         2. And then run:
         
         `install_driver.bat "<interpreter-path>\python.exe"`
