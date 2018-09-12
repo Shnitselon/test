@@ -22,7 +22,7 @@ shellfoundry new DriverName --template layer-1-switch
 
 2. To install the driver's environment and dependencies defined in the driver's *requirements.txt* file, in command-line, navigate to the *~\QualiSystems\CloudShell\Server* folder and run the appropriate command:
  
-If you're using Quali's default python interpreter (at *~\QualiSystems\CloudShell\Server\python*), run the following:
+    * If you're using Quali's default python interpreter (at *~\QualiSystems\CloudShell\Server\python*), run the following:
 
 {% highlight bash %}
 install_driver.bat
