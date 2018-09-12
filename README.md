@@ -8,9 +8,9 @@
 
 1. Start a new project with [shellfoundry](https://github.com/QualiSystems/shellfoundry). We recommend to do that in the *Drivers* folder on the Quali Server machine, usually this is *C:\Program Files (x86)\QualiSystems\CloudShell\Server\Drivers*:
 
-{% highlight bash %}
+```
 shellfoundry new DriverName --template layer-1-switch
-{% endhighlight %}
+```
 
 2. To install the driver's environment and dependencies defined in the driver's *requirements.txt* file, in command-line, navigate to the *~\QualiSystems\CloudShell\Server* folder and run the appropriate command:
  
