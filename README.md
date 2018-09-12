@@ -53,7 +53,7 @@ Do the following in Resource Manager Client.
     3. Select the L1 Switch **Family** and make sure the correct **Model** and **Driver** are selected.
     4. Click **OK**.
     
-3. [Follow this guide](http://help.quali.com/Online%20Help/8.3/Portal/Content/Admn/Cnct-Ctrl-L1-Swch.htm) to set the timeout period (for L1 drivers in CloudShell), autoload and configure your L1 resource's physical connections
+3. [Follow this guide](http://help.quali.com/Online%20Help/9.0/Portal/Content/Admn/Cnct-Ctrl-L1-Swch.htm) to set the timeout period (for L1 drivers in CloudShell), autoload and configure your L1 resource's physical connections
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Autoload and any other commands executed on the L1 resource are logged at *~\QualiSystems\CloudShell\Server\Logs*.
 
